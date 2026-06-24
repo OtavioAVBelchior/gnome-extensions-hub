@@ -39,9 +39,7 @@
             </div>
         </div>
         <footer class="absolute bottom-6 text-slate-500 text-sm flex flex-col items-center gap-2">
-            <span>Powered by Laravel v{{ Illuminate\Foundation\Application::VERSION }} and Filament</span>
+            <span>Created by Otávio Belchior | Powered by Laravel v{{ Illuminate\Foundation\Application::VERSION }} and Filament</span>
         </footer>
-
-        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="otavioavbelchior" data-color="#FFDD00" data-emoji=""  data-font="Inter" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
     </body>
 </html>
