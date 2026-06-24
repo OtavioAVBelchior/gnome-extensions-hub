@@ -9,12 +9,19 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <style>
             body { font-family: 'Inter', sans-serif; }
+            @keyframes slowPulse {
+                0%, 100% { opacity: 0.5; transform: scale(1); }
+                50% { opacity: 0.8; transform: scale(1.05); }
+            }
+            .animate-slow-pulse {
+                animation: slowPulse 6s ease-in-out infinite;
+            }
         </style>
     </head>
     <body class="bg-slate-900 text-white min-h-screen flex flex-col items-center justify-center relative overflow-hidden">
         <!-- Background decorative elements -->
-        <div class="absolute top-[-10%] left-[-10%] w-96 h-96 bg-blue-500/20 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"></div>
+        <div class="absolute top-[-10%] left-[-10%] w-96 h-96 bg-blue-500/20 rounded-full blur-3xl animate-slow-pulse"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-slow-pulse" style="animation-delay: 3s;"></div>
 
         <div class="z-10 text-center max-w-2xl px-6">
             <div class="mb-8 flex justify-center">
@@ -39,7 +46,7 @@
             </div>
         </div>
         <footer class="absolute bottom-6 text-slate-500 text-sm flex flex-col items-center gap-2">
-            <span>Created by Otávio Belchior | Powered by Laravel v{{ Illuminate\Foundation\Application::VERSION }} and Filament</span>
+            <span>Created by <a href="https://github.com/OtavioAVBelchior" target="_blank" class="hover:text-blue-400 transition">Otávio Belchior</a></span>
         </footer>
     </body>
 </html>
