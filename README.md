@@ -81,7 +81,9 @@ The GNOME Extensions Maintainer Hub is a comprehensive dashboard built with Lara
 ### 1. Dashboard Overview
 Once logged in, the **Dashboard** is your command center. It provides a quick summary of your active extensions, total open issues, and pending merge requests across all tracked repositories. 
 
-`[ Insert Dashboard Screenshot Here ]`
+![Login Page](screenshots/login.png)
+
+![Dashboard Overview](screenshots/dashboard.png)
 
 ### 2. Adding an Extension
 To start tracking a repository:
@@ -91,14 +93,14 @@ To start tracking a repository:
 4. The **Repository** dropdown will automatically fetch and list all your projects using your OAuth token. Select the extension you want to track.
 5. Fill in any extra metadata and click **Create**.
 
-`[ Insert Add Extension Screenshot Here ]`
+![Adding an Extension](screenshots/add-extension.png)
 
 ### 3. Managing Issues & Pull Requests
 The Hub automatically syncs your data in the background (if the scheduler is running). You can view all imported data in the **Cached Issues** and **Cached Merge Requests** pages. 
 - Use the table filters to sort by repository, author, or state.
 - Quickly identify which PRs need your review without manually checking multiple repositories.
 
-`[ Insert Issues/PRs Table Screenshot Here ]`
+*(Screenshot de Issues/PRs será adicionada em breve)*
 
 ## Support the Project! ☕
 
