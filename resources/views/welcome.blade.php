@@ -34,7 +34,7 @@
 
         <div class="z-10 text-center max-w-2xl px-6">
             <div class="mb-8 flex justify-center">
-                <img src="{{ asset('images/app_logo_transparent.png') }}" alt="Logo" class="w-28 h-28 drop-shadow-[0_0_20px_rgba(168,85,247,0.8)]">
+                <img src="{{ asset('logo.svg') }}" alt="Logo" class="w-28 h-28 drop-shadow-[0_0_20px_rgba(168,85,247,0.8)]">
             </div>
             <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">GNOME Extensions <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Maintainer Hub</span></h1>
             <p class="text-slate-400 text-lg mb-10 leading-relaxed">
