@@ -53,6 +53,15 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->authMiddleware([
                 Authenticate::class,
-            ]);
+            ])
+            ->renderHook(
+                \Filament\View\PanelsRenderHook::FOOTER,
+                fn (): string => \Illuminate\Support\Facades\Blade::render('
+                    <div class="text-center text-sm text-gray-500 dark:text-gray-400 py-4">
+                        Created by <a href="https://github.com/OtavioAVBelchior" target="_blank" class="text-primary-500 hover:underline">Otávio Belchior</a>. 
+                        Enjoying the Hub? <span class="opacity-75">☕ Apoie o projeto via PIX: <b>32999172402</b></span>
+                    </div>
+                ')
+            );
     }
 }
