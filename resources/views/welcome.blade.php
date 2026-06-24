@@ -55,7 +55,7 @@
             </div>
         </div>
         <footer class="absolute bottom-6 text-slate-500 text-sm flex flex-col items-center gap-2">
-            <span>Created by <a href="https://github.com/OtavioAVBelchior" target="_blank" class="hover:text-blue-400 transition">Otávio Belchior</a></span>
+            <span>Created by <a href="https://github.com/OtavioAVBelchior" target="_blank" class="hover:text-blue-400 transition">Otávio Belchior</a> &bull; v1.0.0</span>
         </footer>
     </body>
 </html>

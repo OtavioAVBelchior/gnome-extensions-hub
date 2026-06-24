@@ -57,7 +57,7 @@ class AdminPanelProvider extends PanelProvider
                 \Filament\View\PanelsRenderHook::FOOTER,
                 fn (): string => \Illuminate\Support\Facades\Blade::render('
                     <div class="text-center text-sm text-gray-500 dark:text-gray-400 py-4">
-                        Created by <a href="https://github.com/OtavioAVBelchior" target="_blank" class="text-primary-500 hover:underline">Otávio Belchior</a>. 
+                        Created by <a href="https://github.com/OtavioAVBelchior" target="_blank" class="text-primary-500 hover:underline">Otávio Belchior</a> &bull; v1.0.0. 
                         Enjoying the Hub? <span class="opacity-75">☕ Apoie o projeto via PIX: <b>32999172402</b></span>
                     </div>
                 ')
