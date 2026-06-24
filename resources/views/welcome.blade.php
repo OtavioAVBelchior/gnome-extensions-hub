@@ -34,7 +34,7 @@
 
         <div class="z-10 text-center max-w-2xl px-6">
             <div class="mb-8 flex justify-center">
-                <svg class="w-20 h-20 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"></path></svg>
+                <img src="{{ asset('images/app_logo.jpg') }}" alt="Logo" class="w-28 h-28 rounded-[1.2rem] shadow-[0_0_40px_rgba(168,85,247,0.3)] border border-white/10">
             </div>
             <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">GNOME Extensions <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Maintainer Hub</span></h1>
             <p class="text-slate-400 text-lg mb-10 leading-relaxed">

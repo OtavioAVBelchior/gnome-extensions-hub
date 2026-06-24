@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/images/app_logo.jpg" width="150" style="border-radius: 20px;">
+</p>
+
 # GNOME Extensions Maintainer Hub
 
 Created by [Otávio Belchior](https://github.com/OtavioAVBelchior)
