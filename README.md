@@ -102,7 +102,9 @@ The Hub automatically syncs your data in the background (if the scheduler is run
 
 ## Support the Project! ☕
 
-If you found this tool helpful for maintaining your GNOME extensions and want to buy me a coffee, you can do it via PIX!
+If you found this tool helpful for maintaining your GNOME extensions and want to buy me a coffee, you can do it via PIX or Buy Me A Coffee!
+
+<a href="https://www.buymeacoffee.com/otavioavbelchior" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 **PIX Key:** `32999172402`
 
