@@ -28,15 +28,15 @@ class StatsOverview extends BaseWidget
         })->where('state', 'open')->count();
 
         return [
-            Stat::make('Tracked Extensions', $extensionsCount)
-                ->description('Extensions registered in your dashboard')
+            Stat::make('Tracked Projects', $extensionsCount)
+                ->description('Projects registered in your dashboard')
                 ->icon('heroicon-o-puzzle-piece'),
             Stat::make('Open Issues', $openIssuesCount)
-                ->description('Total open issues across extensions')
+                ->description('Total open issues across projects')
                 ->color('danger')
                 ->icon('heroicon-o-exclamation-circle'),
             Stat::make('Open Merge Requests', $openMRsCount)
-                ->description('Total open PRs/MRs across extensions')
+                ->description('Total open PRs/MRs across projects')
                 ->color('success')
                 ->icon('heroicon-o-document-arrow-up'),
         ];

@@ -19,14 +19,14 @@ class Extension extends Model
         'extension_name',
         'uuid',
         'metadata',
-        'supported_gnome_versions',
+        'supported_versions',
         'current_version',
         'last_synced_at',
     ];
 
     protected $casts = [
         'metadata' => 'array',
-        'supported_gnome_versions' => 'array',
+        'supported_versions' => 'array',
         'last_synced_at' => 'datetime',
     ];
 

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>GNOME Extensions Hub</title>
+        <title>GitHub Maintainer Hub</title>
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700&display=swap" rel="stylesheet" />
         <script src="https://cdn.tailwindcss.com"></script>
@@ -36,9 +36,9 @@
             <div class="mb-8 flex justify-center">
                 <img src="{{ asset('logo.svg') }}" alt="Logo" class="w-28 h-28 drop-shadow-[0_0_20px_rgba(168,85,247,0.8)]">
             </div>
-            <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">GNOME Extensions <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Maintainer Hub</span></h1>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">GitHub <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Maintainer Hub</span></h1>
             <p class="text-slate-400 text-lg mb-10 leading-relaxed">
-                Centralize the management of your GNOME Shell Extensions. Track issues, pull requests, and releases across GitHub and GitLab in one beautiful dashboard.
+                Centralize the management of your open-source projects. Track issues, pull requests, and releases across GitHub and GitLab in one beautiful dashboard.
             </p>
             
             <div class="flex flex-col sm:flex-row gap-4 justify-center">

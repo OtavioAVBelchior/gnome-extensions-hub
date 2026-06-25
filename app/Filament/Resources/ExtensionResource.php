@@ -19,6 +19,10 @@ class ExtensionResource extends Resource
     protected static ?string $model = Extension::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $modelLabel = 'Project';
+    protected static ?string $pluralModelLabel = 'Projects';
+    protected static ?string $navigationLabel = 'Projects';
+    protected static ?string $slug = 'projects';
 
     public static function form(Form $form): Form
     {
@@ -69,13 +73,14 @@ class ExtensionResource extends Resource
                     ->searchable()
                     ->required(),
                 Forms\Components\TextInput::make('extension_name')
+                    ->label('Project Name')
                     ->required(),
                 Forms\Components\TextInput::make('uuid')
                     ->label('UUID')
                     ->required(),
                 Forms\Components\Textarea::make('metadata')
                     ->columnSpanFull(),
-                Forms\Components\Textarea::make('supported_gnome_versions')
+                Forms\Components\Textarea::make('supported_versions')
                     ->required()
                     ->columnSpanFull(),
                 Forms\Components\TextInput::make('current_version'),
@@ -93,6 +98,7 @@ class ExtensionResource extends Resource
                 Tables\Columns\TextColumn::make('repo_full_name')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('extension_name')
+                    ->label('Project Name')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('uuid')
                     ->label('UUID')

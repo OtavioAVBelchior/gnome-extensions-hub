@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('extension_name');
             $table->string('uuid')->unique();
             $table->json('metadata')->nullable();
-            $table->json('supported_gnome_versions');
+            $table->json('supported_versions');
             $table->string('current_version')->nullable();
             $table->timestamp('last_synced_at')->nullable();
             $table->timestamps();

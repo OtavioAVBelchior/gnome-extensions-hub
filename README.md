@@ -2,18 +2,18 @@
   <img src="public/logo.svg" width="150">
 </p>
 
-# GNOME Extensions Maintainer Hub
+# GitHub Maintainer Hub
 
 Created by [Otávio Belchior](https://github.com/OtavioAVBelchior)
 
-The GNOME Extensions Maintainer Hub is a comprehensive dashboard built with Laravel and Filament, designed specifically for GNOME Shell Extension developers. It centralizes your workflow by automatically syncing and tracking open issues and merge/pull requests across GitHub and GitLab for all your extensions.
+The GitHub Maintainer Hub is a comprehensive dashboard built with Laravel and Filament, designed specifically for open-source project developers. It centralizes your workflow by automatically syncing and tracking open issues and merge/pull requests across GitHub and GitLab for all your tracked projects.
 
 ## Features
 
 - **GitHub & GitLab Integration:** Log in securely via OAuth and automatically fetch your repositories.
 - **Centralized Dashboard:** View total tracked extensions, open issues, and open merge requests in one place.
-- **Multi-tenant Architecture:** Data is isolated per user, meaning you only see the extensions and issues you track.
-- **Automated Sync:** A scheduled command keeps your extension data synced with their remote Git providers.
+- **Multi-tenant Architecture:** Data is isolated per user, meaning you only see the projects and issues you track.
+- **Automated Sync:** A scheduled command keeps your project data synced with their remote Git providers.
 - **Elegant Admin Panel:** Powered by Filament, providing a beautiful and responsive user interface out of the box.
 
 ## Requirements
@@ -27,8 +27,8 @@ The GNOME Extensions Maintainer Hub is a comprehensive dashboard built with Lara
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/gnome-extensions-hub.git
-   cd gnome-extensions-hub
+   git clone https://github.com/your-username/github-maintainer-hub.git
+   cd github-maintainer-hub
    ```
 
 2. **Install PHP dependencies:**
@@ -81,14 +81,14 @@ The GNOME Extensions Maintainer Hub is a comprehensive dashboard built with Lara
 ## How to Use
 
 ### 1. Dashboard Overview
-Once logged in, the **Dashboard** is your command center. It provides a quick summary of your active extensions, total open issues, and pending merge requests across all tracked repositories.
+Once logged in, the **Dashboard** is your command center. It provides a quick summary of your active projects, total open issues, and pending merge requests across all tracked repositories.
 
-### 2. Adding an Extension
+### 2. Adding a Project
 To start tracking a repository:
 1. Navigate to the **Extensions** menu on the left sidebar.
 2. Click **New Extension**.
 3. Select your provider (**GitHub** or **GitLab**).
-4. The **Repository** dropdown will automatically fetch and list all your projects using your OAuth token. Select the extension you want to track.
+4. The **Repository** dropdown will automatically fetch and list all your projects using your OAuth token. Select the project you want to track.
 5. Fill in any extra metadata and click **Create**.
 
 ### 3. Managing Issues & Pull Requests
@@ -96,9 +96,16 @@ The Hub automatically syncs your data in the background (if the scheduler is run
 - Use the table filters to sort by repository, author, or state.
 - Quickly identify which PRs need your review without manually checking multiple repositories.
 
+## Security & Repository Best Practices
+
+To keep this repository secure, follow these best practices on GitHub:
+1. **Branch Protection:** Go to Settings > Branches and protect the `main` branch. Enable "Require a pull request before merging" and restrict who can push directly. This ensures nobody can merge code without your approval.
+2. **Dependabot:** Enable Dependabot in Settings > Code security and analysis to get automated PRs for vulnerable dependencies.
+3. **Secret Scanning:** Ensure Secret Scanning is enabled to prevent accidental leak of GitHub/GitLab tokens.
+
 ## Support the Project! ☕
 
-If you found this tool helpful for maintaining your GNOME extensions and want to buy me a coffee, you can do it via PIX or Buy Me A Coffee!
+If you found this tool helpful for maintaining your projects and want to buy me a coffee, you can do it via PIX or Buy Me A Coffee!
 
 <a href="https://www.buymeacoffee.com/otavioavbelchior" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 

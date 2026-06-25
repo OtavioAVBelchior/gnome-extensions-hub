@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "gnome/extensions-maintainer-hub",
+    "name": "github/maintainer-hub",
     "type": "project",
-    "description": "Dashboard para mantenedores de GNOME Shell Extensions",
+    "description": "Dashboard para mantenedores de Projetos do GitHub",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
